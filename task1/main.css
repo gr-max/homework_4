@@ -1,0 +1,220 @@
+*{padding: 0px;
+margin-top: 0px;}
+
+*{
+    transition: all .2x;
+}
+
+body{
+background: url(http://subtlepatterns.com/patterns/bedge_grunge.png);
+    }
+
+.inner-header{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 34%;
+    background: #FF7C00;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+.inner-header-2{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 65%;
+    background: orange;
+     border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.header{
+    display:flex;
+    margin-bottom: 15px;
+    justify-content: space-between; 
+}
+
+
+@media only screen and (min-width: 950px){
+    .inner-header{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 34%;
+    background: red;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+    
+}
+
+
+@media only screen and (max-width: 600px){
+        .inner-header{
+    margin-top: 10px;
+    height:130px;
+    flex-basis: 100%;
+    background: green;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+    
+.inner-header-2{
+    margin-top: px;
+    height:130px;
+    flex-basis: 0%;
+    background: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}    
+}
+    
+    
+    
+.content{
+    width: 100%;
+    background: green;
+    height: 430px;
+    margin-bottom: 10px;
+     border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+
+
+@media only screen and (max-width: 950px){
+    
+    .content{
+    width: 100%;
+    background: red;
+    height: 390px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);}        
+}
+    
+@media only screen and (max-width: 600px){
+      .content{
+    width: 100%;
+    background: purple;
+    height: 130px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4); }
+    }
+    
+
+
+
+.inner-footer{
+    height:200px;
+    width:30%;
+    background: blue;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.inner-footer1{
+    height:200px;
+    width:33%;
+    background: brown;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.inner-footer2{
+    height:200px;
+    width:33%;
+    background: blue;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.inner-footer3{
+    height:200px;
+    width:33%;
+    background: purple;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+    
+    @media only screen and (max-width: 950px){
+       .inner-footer1{
+    height:200px;
+    width:50%;
+    background: green;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    margin-right: 5px;
+    
+}
+
+.inner-footer2{
+    height:200px;
+    width:0%;
+    background: ;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.inner-footer3{
+    height:200px;
+    width:50%;
+    background: blue;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+    }
+        
+       
+    
+    @media only screen and (max-width: 600px){
+     
+    .inner-footer1{
+    height:460px;
+    width:100%;
+    background: red;
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    
+}
+
+.inner-footer2{
+    height:none;
+    width:0%;
+    background: ;    
+}
+
+        
+.inner-footer3{
+    height:420px;
+    width:0%;
+    background: red;
+   
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+        
+    }
+    
